@@ -1,0 +1,35 @@
+/* Colors */
+:root {
+    /* Basic colors */
+    --white: #FFFFFF;
+
+    /* Site backgrounds */
+    --brown_gray: #907163;
+    --gray20: #333333;
+    --light_brown_gray: #CFB1A3;
+
+    /* Blue theme */
+    --lightest_blue: #99AAAA;
+    --light_blue: #305E87;
+    --medium_blue: #01182C;
+    --dark_blue: #042747;
+    --darkest_blue: #01182C;
+
+    /* Yellow theme */
+    --lightest_yellow: #D0AF41;
+    --light_yellow: #B28F1E;
+    --medium_yellow: #937207;
+    --dark_yellow: #6E5400;
+    --darkest_yellow: #443400;
+
+}
+
+/* Background colors */
+.site_background {
+    background-color: var(--gray20);
+    margin: 0px;
+}
+
+.inner_body_div {
+    margin: 8px;
+}

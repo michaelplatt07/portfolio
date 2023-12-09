@@ -2,6 +2,7 @@
 :root {
     /* Basic colors */
     --white: #FFFFFF;
+    --black: #000000;
 
     /* Site backgrounds */
     --brown_gray: #907163;
@@ -15,12 +16,12 @@
     --dark_blue: #042747;
     --darkest_blue: #01182C;
 
-    /* Yellow theme */
-    --lightest_yellow: #D0AF41;
-    --light_yellow: #B28F1E;
-    --medium_yellow: #937207;
-    --dark_yellow: #6E5400;
-    --darkest_yellow: #443400;
+    /* Purple theme */
+    --lightest_purple: #d2c1d9;
+    --light_purple: #2D0245;
+    --medium_purple: #1E012D;
+    --dark_purple: #0F0017;
+    --darkest_purple: #020004;
 
 }
 
@@ -33,3 +34,105 @@
 .inner_body_div {
     margin: 8px;
 }
+
+/* Min Heights */
+.three-hundred-min-height {
+    min-height: 300px;
+}
+
+.five-hundred-min-height {
+    min-height: 500px;
+}
+
+/* Text */
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+/* 
+ * NOTE(map) These are samples that can be copied and used as needed. Don't
+ * uncomment or they will will apply when you don't intend them to.
+*/
+
+/* Borders */
+/* .double_border_bottom { */
+/*     padding-bottom: 10px; */
+/*     border-bottom: 5px double var(--light_black); */
+/* } */
+
+/* .dotted_border_bottom { */
+/*     border-bottom: 5px dotted var(--light_black); */
+/* } */
+
+/* .dotted_border_right { */
+/*     border-right: 5px dotted var(--light_black); */
+/* } */
+
+/* Cards */
+/* .card_section_header { */
+/*     background-color: var(--darkest_black); */
+/*     color: var(--lightest_black); */
+/*     font-weight: bold; */
+/*     padding: 10px; */
+/*     margin-bottom: 0px; */
+/* } */
+
+/* .card_section_body { */
+/*     background-color: var(--lightest_black); */
+/*     color: var(--darkest_black); */
+/*     padding: 5px; */
+/* } */
+
+/* Headers */
+/* .medium_balck_header { */
+/*     background-color: var(--medium_black); */
+/*     color: var(--lightest_black); */
+/*     padding: 10px; */
+/* } */
+
+/* .dark_black_header { */
+/*     background-color: var(--dark_black); */
+/*     color: var(--lightest_black); */
+/*     padding: 10px; */
+/* } */
+
+/* .dark_black_section_header { */
+/*     background-color: var(--dark_black); */
+/*     color: var(--lightest_black); */
+/*     padding: 10px; */
+/*     margin-bottom: 0px; */
+/* } */
+
+/* Links */
+/* .link { */
+/*     background-color: var(--dark_black); */
+/*     border: 1px solid var(--lightest_black); */
+/*     border-radius: 10px 0px 0px 0px; */
+/*     padding: 10px; */
+/*     text-align: center; */
+/* } */
+
+/* .link:hover { */
+/*     background-color: var(--lightest_black); */
+/*     border: 1px solid var(--darkest_black); */
+/*     border-radius: 10px 0px 0px 0px; */
+/*     cursor: pointer; */
+/* } */
+
+/* .link a { */
+/*     color: var(--lightest_black); */
+/* } */
+
+/* .link:hover a { */
+/*     color: var(--darkest_black); */
+/*     font-weight: bold; */
+/* } */
+

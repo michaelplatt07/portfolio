@@ -2,31 +2,19 @@
 :root {
 }
 
-/* Text */
-.center {
-    text-align: center;
-}
-
-/* Headers */
-.medium_blue_header {
-    background-color: var(--medium_blue);
-    color: var(--lightest_blue);
-    padding: 10px;
-}
-
-.dark_blue_header {
+/* Cards */
+.dark_blue_section_header {
     background-color: var(--dark_blue);
     color: var(--lightest_blue);
+    font-weight: bold;
     padding: 10px;
+    margin-bottom: 0px;
 }
 
-.border_bottom {
-    padding-bottom: 10px;
-    border-bottom: 5px double var(--light_blue);
-}
-
-.border_right {
-    border-right: 5px dotted var(--light_blue);
+.section_body {
+    background-color: var(--lightest_blue);
+    color: var(--dark_blue);
+    padding: 5px;
 }
 
 /* Grid */
@@ -134,17 +122,31 @@
     grid-row: 2;
 }
 
-/* Sections */
-.dark_blue_section_header {
-    background-color: var(--dark_blue);
+/* Headers */
+.medium_blue_header {
+    background-color: var(--medium_blue);
     color: var(--lightest_blue);
-    font-weight: bold;
     padding: 10px;
-    margin-bottom: 0px;
 }
 
-.section_body {
-    background-color: var(--lightest_blue);
-    color: var(--dark_blue);
-    padding: 5px;
+.dark_blue_header {
+    background-color: var(--dark_blue);
+    color: var(--lightest_blue);
+    padding: 10px;
 }
+
+.border_bottom {
+    padding-bottom: 10px;
+    border-bottom: 5px double var(--light_blue);
+}
+
+.border_right {
+    border-right: 5px dotted var(--light_blue);
+}
+
+/* Text */
+.center {
+    text-align: center;
+}
+
+

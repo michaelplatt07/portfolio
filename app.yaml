@@ -2,8 +2,12 @@ runtime: python39
 
 handlers:
 - url: /
-  static_files: www/index.html
-  upload: www/index.html
+  static_files: www/home_page.html
+  upload: www/home_page.html
+
+- url: /profile
+  static_files: www/profile.html
+  upload: www/profile.html
 
 - url: /(.*)
   static_files: www/\1

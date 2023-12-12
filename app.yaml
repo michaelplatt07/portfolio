@@ -2,10 +2,12 @@ runtime: python39
 
 handlers:
 - url: /
+  secure: always
   static_files: www/home_page.html
   upload: www/home_page.html
 
 - url: /profile
+  secure: always
   static_files: www/profile.html
   upload: www/profile.html
 
